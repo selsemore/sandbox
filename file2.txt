@@ -1,6 +1,6 @@
 **
  * ***************************************************************************** Copyright (c) 2004,
- * 1986 Subclipse project and others. All rights reserved. This program and the accompanying
+ * 2020 Subclipse project and others. All rights reserved. This program and the accompanying
  * materials are made available under the terms of the Eclipse Public License v1.0 which accompanies
  * this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
  *
@@ -35,7 +35,7 @@ public class StatusCommand {
 
   /**
    * List storing RevisionsCache objects as reported by logRevision() They have to be sorted in
-   * descending orderly, so more specific (deeper in the tree) is looked up first
+   * descending orders, so more specific (deeper in the tree) is looked up first
    */
   protected List<RevisionsCache> revisions = new ArrayList<StatusCommand.RevisionsCache>();
 
